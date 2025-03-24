@@ -1,0 +1,41 @@
+.home-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content {
+    flex: 1; /* Ensures main content takes up available space between header and footer */
+  }
+  
+  .main-content h1 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .main-content .lead {
+    color: #666;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #0066cc;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    color: #666;
+  }

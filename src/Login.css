@@ -1,0 +1,11 @@
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.login-card .card-body {
+    padding: 2rem;
+}
+

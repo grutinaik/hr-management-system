@@ -1,0 +1,12 @@
+/* HomeHeader.css */
+.active-link {
+    background-color: #0066cc; /* Matches your primary color */
+    color: white !important; /* Overrides Bootstrap's default color */
+    border-radius: 4px;
+    padding: 8px 12px; /* Adjust padding for better appearance */
+  }
+  
+  .active-link:hover {
+    background-color: #0052a3; /* Darker shade on hover */
+    color: white !important;
+  }

@@ -1,0 +1,63 @@
+/* Features.css */
+.features-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  .main-content h1 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .main-content .lead {
+    color: #666;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #0066cc;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  .btn-primary {
+    background-color: #0066cc;
+    border-color: #0066cc;
+    padding: 10px 30px;
+    transition: all 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0052a3;
+    border-color: #0052a3;
+  }
+  
+  .footer {
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .footer p {
+    color: #666;
+    font-size: 0.9rem;
+  }
