@@ -7,7 +7,7 @@ export default function Footer() {
         <Container>
           <Row>
             <Col className="text-center">
-              <p className="mb-0">© 2025 HR Management System. All rights reserved.</p>
+              <p className="mb-0">© 2025 HR Management System | Developed by Jagruti Naik</p>
             </Col>
           </Row>
         </Container>

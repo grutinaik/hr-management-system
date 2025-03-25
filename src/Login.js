@@ -22,6 +22,7 @@ export default function Login({ onLogin }) {
         <Card className='login-card shadow-sm'>
             <Card.Body>
                 <h3 className='text-center mb-4'>Login</h3>
+                <p>Enter <strong>admin</strong> as username & <strong>password123</strong> as password</p>
                 {error && <Alert variant='danger'>{error}</Alert>}
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className='mb-3' controlId='formusername'>
